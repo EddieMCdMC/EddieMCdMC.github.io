@@ -1,0 +1,25 @@
+body {
+  background-color:grey;
+  margin:0px;
+  padding:50px;
+}
+
+.main-container {
+  background-color:white;
+  padding:25px;
+  border:2px solid black;
+  box-shadow: 5px;
+  /* border: 2px solid black; */
+}
+
+.contents-headers {
+  margin-top:25px;
+}
+
+.contents-container {
+  width:40%;
+  border:1px solid black;
+  padding:25px;
+  background-color:lightgrey;
+  margin-top:25px;
+}
