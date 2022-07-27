@@ -8,7 +8,7 @@ body {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:30px
+  padding:30px;
   border-radius:10px 10px 0px 0px;
   color: red;
 }
@@ -60,7 +60,7 @@ border-radius: 0px 0px 10px 10px;
 .main {
   border-radius: 15px;
   border: 5px solid red;
-  box-shadow: 7px 7px 3px 3px rgba(176 196 193 0.3);
+  box-shadow: 7px 7px 3px 3px rgba(255, 228,225, 0.5);
 }
 
 .header-image {
