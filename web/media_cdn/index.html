@@ -8,7 +8,7 @@
     <style>
       #file-button {
         background-color: black;
-        border: 2px solid black;
+        border: 2px solid rgb(255, 0, 225);
         border-radius: 5px;
         color: blueviolet;
         font-weight: bold;
@@ -25,7 +25,7 @@
 
       #file-button2 {
         background-color: black;
-        border: 2px solid black;
+        border: 2px solid chartreuse;
         border-radius: 5px;
         color: blueviolet;
         font-weight: bold;
@@ -40,10 +40,40 @@
         cursor: grab;
       }
 
+      #hero-video {
+        width: 100%;
+        height: 600px;
+        border: 2px solid chartreuse;
+
+      }
+
+      header {
+        background-color: black;
+        border: 2px solid hotpink;
+        padding: 20px;
+        color: aqua;
+
+      }
+
+      header h1 {
+        font-family: rubik marker hatch;
+        /* font-size: 20pt; */
+
+      }
+
+      body {
+        background: linear-gradient(grey, black)
+      }
+
+
+
     </style>
   </head>
   <body>
     <header>
+
+      <h1> GDWD Vibez</h1>
+    
 
     </header>
 
@@ -55,7 +85,9 @@
         
       <div class="hero">
 
-       <video height="1080" width="1920" autoplay loop plays inline>
+        <iframe id="hero-video" src="https://vod-progressive.akamaized.net/exp=1660246264~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4349%2F14%2F371745222%2F1543748351.mp4~hmac=a2244a2b5e47825b7c7e56052c05ac25cc459bf0951d174d956caf0f524d5932/vimeo-prod-skyfire-std-us/01/4349/14/371745222/1543748351.mp4" frameborder="0"></iframe>
+
+       <video height="600px" width="100%" autoplay="true" controls muted loop plays inline>
         <source src="./assets/video.mp4" type="video/mp4"/>
         <source src="./assets/video.ogg" type="video/ogg"/>
 
@@ -72,7 +104,7 @@
         
         <audio controls loop>
 
-          <source src="./assets/song.mp3" type="mp3">
+          <source src="./assets/song.mp3" type="audio/mp3">
         </audio>
       </div>
 
