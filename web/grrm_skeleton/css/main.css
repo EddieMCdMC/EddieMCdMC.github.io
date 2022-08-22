@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+body{
+  margin: 0px;
+  background-color: black;
+  background-image: url("../assets/fire2.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.7), url("../assets/fire2.jpg");
+
+
+  
+}
+
+header {
+  color: whitesmoke;
+  font-family: "Cinzel Decorative";
+  border: 0px;
+  background-color: grey;
+  padding: 10px;
+  background-image: url("../assets/smoke2.jpg");
+  background-size: cover;
+  /* background-position: center center; */
+
+  
+
+}
+
+
+nav {
+
+  border: 0px;
+  background-color:rgba(195, 152, 13, 1);
+  padding: 20px;
+  /* background-image: url("../assets/gold2.jpg");
+  background-size: cover; */
+
+}
+
+nav li {
+list-style-type: none;
+font-size: 12pt;
+
+}
+
+nav ul {
+
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+
+}
+
+nav a { 
+  color: white;
+  text-decoration: none;
+
+}
