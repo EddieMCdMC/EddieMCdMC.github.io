@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Cinzel+Decorative:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Amita:wght@400;700&display=swap');
 body{
   margin: 0px;
   background-color: black;
@@ -9,7 +10,6 @@ body{
   background-position: center center;
   background-repeat: no-repeat;
   background: rgba(0, 0, 0, 0.7), url("../assets/fire2.jpg");
-
 
   
 }
@@ -23,6 +23,8 @@ header {
   background-image: url("../assets/smoke2.jpg");
   background-size: cover;
   /* background-position: center center; */
+  display: flex;
+  align-items: center;
 
   
 
@@ -32,17 +34,16 @@ header {
 nav {
 
   border: 0px;
-  background-color:rgba(195, 152, 13, 1);
-  padding: 20px;
-  /* background-image: url("../assets/gold2.jpg");
-  background-size: cover; */
+  background-color:rgba(212, 175, 55, 1);
+  padding: 10px;
+  background-size: cover;
+  font-family: "Cinzel Decorative";
 
 }
 
 nav li {
 list-style-type: none;
-font-size: 12pt;
-
+font-size: 6pt;
 }
 
 nav ul {
@@ -50,7 +51,7 @@ nav ul {
   padding-left: 0;
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 100%;
   margin: auto;
 
 }
@@ -59,4 +60,65 @@ nav a {
   color: white;
   text-decoration: none;
 
+}
+
+.svg_logo {
+  width: 15%;
+ margin-right: 10px;
+}
+
+main {
+  font-family: "Cinzel Decorative";
+  color: white;
+  margin:auto;
+  /* background-color: rgba(0, 0, 0, 01.7); */
+  padding: 0x;
+  
+}
+
+.col img {
+  width:100%;
+}
+
+main h6 {
+  /* background-color: black; */
+  padding: 0px;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+p {
+  /* background-color: rgba(0, 0, 0, 4); */
+  font-size: 8pt;
+  margin: 0px;
+}
+
+.blog_post{
+padding: 0px;
+margin: auto;
+width: 80%;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background-color: white;
+  width:100%;
+  margin: auto;
+  align-items: center;
+  font-family: "Cenzil Decorative";
+  font-size: 10pt;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+footer h4 {
+  font-size: 10pt;
+  padding-top: 7px;
+}
+
+@media only screen and (min-width)
+{
+  
+  
 }
