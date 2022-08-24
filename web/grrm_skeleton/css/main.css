@@ -19,7 +19,7 @@ header {
   font-family: "Cinzel Decorative";
   border: 0px;
   background-color: grey;
-  padding: 10px;
+  padding: 20px;
   background-image: url("../assets/smoke2.jpg");
   background-size: cover;
   /* background-position: center center; */
@@ -99,6 +99,8 @@ padding: 0px;
 margin: auto;
 width: 80%;
  background-color: rgba(0, 0, 0, 0.5);
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 footer {
@@ -117,8 +119,40 @@ footer h4 {
   padding-top: 7px;
 }
 
-@media only screen and (min-width)
-{
+@media only screen and (min-width: 800px) {
+
+/* nav ul { */
+  /* justify-content: spa;
+} */
+
+nav li {
+  font-size: 25px;
+
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+.svg_logo {
+  width: 150px;
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+nav li {
+  font-size: 10px;
   
-  
+}
+
+.img-block {
+  margin-bottom: ;
+}
+
 }
