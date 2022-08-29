@@ -9,8 +9,9 @@ head {
 }
 
 .svg_logo {
+  width: 50%;
+  margin: auto;
   margin-top: 10%;
-  margin-left: 10%;
 
 }
 
@@ -46,10 +47,10 @@ nav a {
 nav li {
   list-style-type: none;
   font-size: 12pt;
+  padding: 15px;
   }
 
- list_1 .hover_1  {
-  background-color: rgb( 39, 175, 255);
-
-
-  }
+ .list_1 a:hover  {
+   background: rgb( 39, 175, 255);
+   color: black;
+   }
