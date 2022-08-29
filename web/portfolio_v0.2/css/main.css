@@ -14,3 +14,36 @@ head {
 
 }
 
+nav {
+
+  border: 5px;
+
+  /* background-color:rgba(212, 175, 55, 1); */
+  padding: 10px;
+  background-size: cover;
+  font-family: "Cinzel Decorative";
+  margin-top: 15%;
+
+}
+
+nav ul {
+
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+
+}
+
+nav a { 
+  color: white;
+  text-decoration: none;
+
+}
+
+
+nav li {
+  list-style-type: none;
+  font-size: 12pt;
+  }
