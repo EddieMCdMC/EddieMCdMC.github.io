@@ -62,12 +62,14 @@ nav ul {
   justify-content: space-between;
   width:90%;
   margin: auto;
+  /* padding:30px; */
 
 }
 
 nav a { 
   color: white;
   text-decoration: none;
+  flex: 1;
 
 }
 
@@ -76,12 +78,18 @@ nav li {
   list-style-type: none;
   font-size: 12pt;
   padding: 15px;
+  flex: 1;
   }
 
   nav a:hover {
     color: black;
     display: flex;
 
+  }
+
+
+  .nav ul>div {
+    flex: 1;
   }
 
  .list_1 a:hover  {
@@ -139,3 +147,54 @@ nav li {
     justify-content: center;
   }
 
+@media only screen and (max-width:600px) {
+
+  nav {
+    position: sticky;
+    top: 0px;
+    z-index: 40;
+  }
+
+  nav li {
+    font-size: 8pt;
+    display:flex;
+    padding: 5px;
+    justify-content: center;
+  
+  }
+
+  .svg_logo {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    color:white;
+    justify-content: center;
+  
+  }
+
+
+nav ul {
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width:1200px) {
+
+  nav {
+    position: sticky;
+    top: 0px;
+    z-index: 40;
+  }
+
+  nav li {
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+
+
+
+}
