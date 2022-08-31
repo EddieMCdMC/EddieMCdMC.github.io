@@ -62,12 +62,14 @@ nav {
   text-align: center;
   width: 100%;
   background-color: #e1a177;
+  font-family: "Montserrat";
 }
 
 nav ul{
 display: flex;
 margin:0;
 padding-left: 0;
+font-family: "Montserrat";
 }
 
 nav li {
@@ -76,6 +78,7 @@ nav li {
   justify-content: center;
   text-align: center;
   color: white;
+  font-family: "Montserrat";
 }
 
 nav a {
@@ -100,6 +103,7 @@ main h2 {
 footer{
   display: flex;
   background: linear-gradient(150deg, transparent 60%, #e1a177 60%);
+  font-family: "Montserrat";
 
 }
 
