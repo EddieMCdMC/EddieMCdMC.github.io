@@ -40,13 +40,19 @@
       <main>
         <!-- Main Content Wrapper -->
 
+        <div class="time_wrapper">
+          <h4>New Blend,Who Dis?:</h4>
+         <p id="date_element"></p>
+        </div>
+
         <div class="about_button_wrapper">
           <h2>Click hear to learn about us</h2>
-            <button class="about_button">About</button>
+            <button class="about_button" onclick="toggleContent()">About</button>
             <p class="about_text" id="js_demo">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facere minus ipsum illum! Sequi similique vero modi. A numquam voluptatibus quo sed ipsa facere, deleniti beatae quasi officiis eius neque.
             </p>
         </div>
+
       </main>
       <footer>
         <div class="footer_left">
@@ -68,8 +74,9 @@
               <li>Link5</li>
             </a>
           </ul>
-          
+   
         </div>
+
         <div class="footer_right">
           <h3>Quick Links</h3>
           <ul>
@@ -92,10 +99,34 @@
     
 
     <script>
-      var x = document.getElementById("js_demo").innerHTML;
+    
 
-      console.log("Hello World.");
-      console.log(x);
+      function toggleContent() { 
+        var b = document.getElementById("js_demo");
+        b.classList.toggle("reveal");
+      }
+
+      var datePg = document.getElementById("date_element");
+      
+      function revealDate() {
+        datePg.innerHTML = Date();
+      }
+
+      revealDate();
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    <script src="./js/countdown.js">
+
     </script>
 
   </body>
