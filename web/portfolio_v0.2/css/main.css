@@ -1,6 +1,11 @@
 body{
   margin: 0px;
   background-color: black;
+  background-image:url("../assets/bg.png");
+  background: rgba(0, 0, 0, .7),url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
 
@@ -9,6 +14,13 @@ body{
 color: ;
   
 } */
+
+head {
+  background-image:url("../assets/bg.png");
+  background: rgba(0, 0, 0, .7),url("../assets/bg.png");
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
 
 header h1 {
   margin: auto;
@@ -20,7 +32,7 @@ header h1 {
 .header_h1:hover{
   color:white;
   padding: 20px;
-  background-color: rgb(255, 2, 2);
+  background-color: rgb( 20, 148, 68);
   border-radius: 25px;
   transition: 1.5s;
   justify-content: center;
@@ -47,7 +59,7 @@ nav {
   border: 0px;
 
   /* background-color:rgba(212, 175, 55, 1); */
-  padding: 10px;
+  padding: 20px;
   background-size: cover;
   font-family: "Cinzel Decorative";
   margin-top: 10%;
