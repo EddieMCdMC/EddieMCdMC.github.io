@@ -126,15 +126,24 @@ main h2 {
   
 }
 
-.cup_pic {
+.pic_grid {
  /* background-size: cover; */
- width:30%;
+ /* width:100%; */
+ display: flex;
+ justify-content: space-between;
+ padding:5px;
 }
 
-.cup_pic img {
+.pic_grid img {
   width: 100%;
   margin-top: 40px;
 }
+
+.bean {
+  /* width: ; */
+}
+
+
 
 footer{
   display: flex;
@@ -258,3 +267,24 @@ footer a {
   
   }
   }
+
+  .pic_grid {
+  flex: 1;
+  height: 200px;
+  background-color: #e1a177;
+  margin: 10px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  }
+
+  .bg_obj_wrap{
+    display: flex;
+
+  }
+/*Do This for all Images*/
+
+  .plant {
+    background-image: url("./assets/bean_plant.jpg")
+  }
+
