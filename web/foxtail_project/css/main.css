@@ -54,7 +54,11 @@ header h1 {
 
 .header_right img {
   width: 100%;
+  transition: 2s;
+}
 
+.header_right img:hover {
+  transform: rotate(359deg);
 }
 
 
@@ -182,3 +186,47 @@ footer a {
   color: blanchedalmond;
 
 }
+
+@media only screen and (min-width: 800px) {
+
+  /* nav ul { */
+    /* justify-content: spa;
+  } */
+  
+  nav li {
+    font-size: 25px;
+  
+  }
+  
+  nav {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+  }
+  
+  .svg_logo {
+    width: 150px;
+  
+  }
+  
+  }
+  
+  
+  
+  @media only screen and (max-width: 800px) {
+  nav li {
+    font-size: 15px;
+    
+  }
+  
+  .img-block {
+    margin-bottom: ;
+  }
+  
+  }
+  
+  @media only screen and (min-width:992PX) {
+  .fourth_box { display: none;
+  
+  }
+  }
