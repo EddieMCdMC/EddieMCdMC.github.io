@@ -12,6 +12,9 @@ body{
 
 main {
   font-family: "Montserrat";
+  margin: 0;
+  justify-content: space-between;
+  padding: 10px 25px;
 
 }
 
@@ -104,6 +107,7 @@ footer{
   display: flex;
   background: linear-gradient(150deg, transparent 60%, #e1a177 60%);
   font-family: "Montserrat";
+  padding: 10px 25px;
 
 }
 
