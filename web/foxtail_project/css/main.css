@@ -268,23 +268,47 @@ footer a {
   }
   }
 
-  .pic_grid {
+  .object {
   flex: 1;
-  height: 200px;
+  height: 20vw;
   background-color: #e1a177;
-  margin: 10px;
+  margin: 20px;
   background-size: cover;
   background-position: center center;
   border-radius: 50%;
+  margin-top: 50px;
   }
 
-  .bg_obj_wrap{
+  .pic_grid{
     display: flex;
 
   }
 /*Do This for all Images*/
 
   .plant {
-    background-image: url("./assets/bean_plant.jpg")
+    background-image: url("../assets/bean_plant.jpg")
+  }
+
+  .cup {
+    background-image: url("../assets/cup.jpg");
+  }
+
+  .bowls {
+    background-image: url("../assets/bean_bowls.jpg")
+
+  }
+
+  .ppp {;
+    margin-top: -70px;  
+  }
+
+  #date_element {
+    margin-top: 0px;
+  }
+
+  main .ppp {
+    background-color: rgba(225, 134, 119, .06);
+    border-radius: 50%;
+    text-shadow: 1px 2px 0px black;
   }
 
