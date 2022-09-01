@@ -27,6 +27,7 @@ main {
 
 }
 
+
 header{
   margin: auto;
   padding: 10px 25px;
@@ -125,6 +126,21 @@ flex: 2;
 
 .footer_center{
   flex: 1;
+}
+
+footer li {
+  list-style-type: none;
+  color:black;
+  text-shadow: 1px 2px 0px white;
+
+}
+
+footer ul {
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 
