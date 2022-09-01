@@ -108,6 +108,34 @@ main h2 {
   color: white;
 }
 
+.pars {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main_p {
+  border-left: white 3px solid;
+  padding-left: 13px;
+  /* border: 3px solid #e1a177; */
+  width: 100%;}
+
+.main_p2 {
+  border-left: #e1a177 3px solid;
+  padding-left: 13px;
+  margin-top: 10px;
+  
+}
+
+.cup_pic {
+ /* background-size: cover; */
+ width:30%;
+}
+
+.cup_pic img {
+  width: 100%;
+  margin-top: 40px;
+}
+
 footer{
   display: flex;
   background: linear-gradient(150deg, transparent 60%, #e1a177 60%);
