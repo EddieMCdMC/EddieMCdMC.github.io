@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   background-color: black;
-  background-image:url("../assets/bg.png");
+  /* background-image:url("../assets/bg.png"); */
   background: rgba(0, 0, 0, .7),url("../assets/bg.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -51,7 +51,7 @@ header h1 {
 }
 
 .svg_logo:hover{
-  color: rgb( 102, 45, 145)
+  color: rgb( 102, 45, 145);
 }
 
 nav {
