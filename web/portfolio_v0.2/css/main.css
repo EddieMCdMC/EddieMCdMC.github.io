@@ -32,7 +32,7 @@ header h1 {
 .header_h1:hover{
   color:white;
   padding: 20px;
-  background-color: rgb( 20, 148, 68);
+  background-color: rgb( 39, 175, 255);
   border-radius: 25px;
   transition: 1.5s;
   justify-content: center;
@@ -41,6 +41,53 @@ header h1 {
  
 
 }
+
+.illy_header_h1:hover{
+  color:white;
+  padding: 20px;
+  background-color: rgb( 238, 42, 123) ;
+  border-radius: 25px;
+  transition: 1.5s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.photo_header_h1:hover{
+  color:white;
+  padding: 20px;
+  background-color: rgb( 255, 242, 0) ;
+  border-radius: 25px;
+  transition: 1.5s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.web_header_h1:hover{
+  color:white;
+  padding: 20px;
+  background-color: rgb( 102, 45, 145) ;
+  border-radius: 25px;
+  transition: 1.5s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.info_header_h1{
+  color:white;
+  padding: 20px;
+  background-color:rgb( 20, 148, 68) ;
+  border-radius: 25px;
+  transition: 1.5s;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
 
 .svg_logo {
   width: 50%;
