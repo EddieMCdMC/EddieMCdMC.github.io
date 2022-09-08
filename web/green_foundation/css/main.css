@@ -159,15 +159,18 @@ footer{
 
 .footer_left{
 flex: 2;
+order: 2;
 }
 
 .footer_right{
   flex: 1;
   order: 1;
+  
 }
 
 .footer_center{
   flex: 1;
+ 
   
 }
 
