@@ -1,0 +1,321 @@
+[9:48 AM] Nicholas Parry
+// Montserrat
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+  margin: 0px;
+  font-family: "Montserrat";
+}
+
+main {
+  font-family: "Montserrat";
+  margin: 0;
+  justify-content: space-between;
+  padding: 10px 25px;
+
+}
+
+#main_page {
+  margin: 5%;
+  box-sizing: content-box;
+  width: 90%;
+  border: 5px solid #e1a177;
+  margin: 5% auto;
+
+}
+
+
+header{
+  margin: auto;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(138, 209, 127);
+
+}
+
+header h1 {
+  color: white;
+}
+
+.header_left {
+  font-family: "Lobster";
+}
+
+.header_right {
+  width: 25%;
+  min-width: 60px;
+  max-width: 200px;
+}
+
+.header_right img {
+  width: 100%;
+  transition: 2s;
+}
+
+.header_right img:hover {
+  /* transform: r; */
+}
+
+
+/*NAV CSS*/
+
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: #e1a177;
+  font-family: "Montserrat";
+}
+
+nav ul{
+display: flex;
+margin:0;
+padding-left: 0;
+font-family: "Montserrat";
+}
+
+nav li {
+  list-style-type: none;
+  padding: 30px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+}
+
+nav a {
+  text-decoration: none;
+  color: #e1a177;
+}
+
+/*MAIN CSS*/
+
+main {
+  /*TEMP: */
+  /* height: 500px; */
+  background-color: rgb(138, 209, 127);;
+  color: white;
+
+}
+
+main h2 {
+  color: white;
+}
+
+.pars {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.main_p {
+  border-left: white 3px solid;
+  padding-left: 13px;
+  /* border: 3px solid #e1a177; */
+  width: 100%;}
+
+.main_p2 {
+  border-left: #e1a177 3px solid;
+  padding-left: 13px;
+  margin-top: 10px;
+  
+}
+
+.pic_grid {
+ /* background-size: cover; */
+ /* width:100%; */
+ display: flex;
+ justify-content: space-between;
+ padding:5px;
+}
+
+.pic_grid img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.bean {
+  /* width: ; */
+}
+
+
+
+footer{
+  display: flex;
+  background: linear-gradient(150deg, #e1a177 60%, #154e0a 60%);
+  font-family: "Montserrat";
+  padding: 10px 25px;
+
+}
+
+.footer_left img {
+  width: 100%;
+}
+
+.footer_left{
+flex: 2;
+}
+
+.footer_right{
+  flex: 1;
+  order: 1;
+}
+
+.footer_center{
+  flex: 1;
+  
+}
+
+footer li {
+  list-style-type: none;
+  color:white;
+  /* text-shadow: 1px 2px 0px white; */
+
+}
+
+footer ul {
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+
+
+/*JS DEMO 1 */
+.about_text {
+  display: none;
+}
+
+.reveal {
+  display: block;
+}
+
+#date_element {
+  text-align: center;
+  background-color: black;
+  border-radius: 25%;
+}
+
+.time_wrapper {
+  background-color: grey;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-image: url("../assets/greenery.jpg");
+  background-size: cover;
+  background-position: 25,50;
+  /* background-attachment: fixed; */
+}
+
+.time_wrapper h4 {
+  font-size: 30pt;
+  text-shadow: 2px 3px 0px black;
+  font-family: "Lobster";
+  color: blanchedalmond;
+
+}
+
+@media only screen and (min-width: 800px) {
+
+  /* nav ul { */
+    /* justify-content: spa;
+  } */
+  
+  nav li {
+    font-size: 25px;
+  
+  }
+  
+  nav {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+  }
+  
+  .svg_logo {
+    width: 150px;
+  
+  }
+  
+  }
+  
+  
+  
+  @media only screen and (max-width: 800px) {
+  nav li {
+    font-size: 10px;
+    padding: 10px;
+  
+    
+  }
+  
+  .img-block {
+    margin-bottom: ;
+  }
+  
+  }
+  
+  @media only screen and (min-width:992PX) {
+  .fourth_box { display: none;
+  
+  }
+  }
+
+  .object {
+  flex: 1;
+  height: 20vw;
+  background-color: #e1a177;
+  margin: 20px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  margin-top: 50px;
+  }
+
+  .pic_grid{
+    display: flex;
+
+  }
+/*Do This for all Images*/
+
+  .plant {
+    background-image: url("../assets/kid.jpg")
+  }
+
+  .cup {
+    background-image: url("../assets/plants.jpg");
+  }
+
+  .bowls {
+    background-image: url("../assets/kid3.jpg")
+
+  }
+
+  .ppp {;
+    margin-top: -70px;  
+  }
+
+  #date_element {
+    margin-top: 0px;
+  }
+
+  main .ppp {
+    background-color: rgba(225, 134, 119, .06);
+    border-radius: 50%;
+    text-shadow: 1px 2px 0px black;
+  }
+.footer{
+  display: flex;
+}
+
