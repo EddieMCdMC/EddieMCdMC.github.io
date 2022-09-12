@@ -29,7 +29,7 @@ header h1 {
   font-size: 14pt;
 }
 
-.header_h1:hover{
+.header_h1{
   color:white;
   padding: 20px;
   background-color: rgb( 39, 175, 255);
@@ -38,11 +38,11 @@ header h1 {
   justify-content: center;
   align-items: center;
   display: flex;
- 
+  transition-delay: 1s;
 
 }
 
-.illy_header_h1:hover{
+.illy_header_h1{
   color:white;
   padding: 20px;
   background-color: rgb( 238, 42, 123) ;
@@ -51,9 +51,10 @@ header h1 {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition-delay: 1s;
 }
 
-.photo_header_h1:hover{
+.photo_header_h1{
   color:white;
   padding: 20px;
   background-color: rgb( 255, 242, 0) ;
@@ -62,9 +63,10 @@ header h1 {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition-delay: 1s;
 }
 
-.web_header_h1:hover{
+.web_header_h1 {
   color:white;
   padding: 20px;
   background-color: rgb( 102, 45, 145) ;
@@ -73,6 +75,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition-delay: 1s;
 }
 
 .info_header_h1{
@@ -84,6 +87,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   display: flex;
+  transition-delay: 1s;
 }
 
 
@@ -365,4 +369,10 @@ main {
   width: 89%;
   margin: auto;
 
+ }
+
+ @media (max-width: 700px){
+  .grid-wrapper {
+    grid-template-columns: auto auto;
+  }
  }
