@@ -39,6 +39,7 @@ header h1 {
   align-items: center;
   display: flex;
   transition-delay: 2s;
+  transition-property: background-color padding;
 
 }
 
@@ -52,6 +53,7 @@ header h1 {
   align-items: center;
   display: flex;
   transition-delay: 2s;
+  transition-property: background-color padding;
 }
 
 .photo_header_h1{
@@ -64,6 +66,7 @@ header h1 {
   align-items: center;
   display: flex;
   transition-delay: 2s;
+  transition-property: background-color padding;
 }
 
 .web_header_h1 {
@@ -76,6 +79,7 @@ header h1 {
   align-items: center;
   display: flex;
   transition-delay: 2s;
+  transition-property: background-color padding;
 }
 
 .info_header_h1{
@@ -88,6 +92,7 @@ header h1 {
   align-items: center;
   display: flex;
   transition-delay: 2s;
+  transition-property: background-color padding;
 }
 
 
